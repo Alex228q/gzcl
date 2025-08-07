@@ -81,7 +81,7 @@ const workoutTemplates = {
         weight: "",
       },
       {
-        name: "Подтягивания",
+        name: "Бицепс штанга",
         sets: 3,
         reps: "15+",
         completed: false,
@@ -107,7 +107,7 @@ const workoutTemplates = {
         weight: "",
       },
       {
-        name: "Австралийские подтягивания",
+        name: "Подтягивания",
         sets: 3,
         reps: "15+",
         completed: false,
