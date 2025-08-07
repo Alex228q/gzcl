@@ -29,7 +29,7 @@ const workoutTemplates = {
       },
       { name: "Жим лёжа", sets: 3, reps: 10, completed: false, weight: "" },
       {
-        name: "Подтягивания",
+        name: "Отжимания на брусьях",
         sets: 3,
         reps: "15+",
         completed: false,
@@ -107,7 +107,7 @@ const workoutTemplates = {
         weight: "",
       },
       {
-        name: "Тяга в наклоне",
+        name: "Австралийские подтягивания",
         sets: 3,
         reps: "15+",
         completed: false,
@@ -172,8 +172,6 @@ const WorkoutPage = () => {
   return (
     <Container maxWidth="md">
       <Box sx={{ my: 4 }}>
-      
-
         <Box sx={{ display: "flex", gap: 2, mb: 3 }}>
           {Object.keys(workoutTemplates).map((day) => (
             <Button
